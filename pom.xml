@@ -14,15 +14,6 @@
 
 	 <distributionManagement>
    <!-- use the following if you're not using a snapshot version. -->
-		 <Context>
-  ...
-  <JarScanner>
-    <JarScanFilter
-        pluggabilityScan="${tomcat.util.scan.StandardJarScanFilter.jarsToScan},
-                       my_pluggable_feature.jar"/>
-  </JarScanner>
-  ...
-</Context>
    <repository>
      <id>central</id>
      <name>central</name>
