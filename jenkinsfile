@@ -1,12 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('clone') { 
-            steps {
-                git 'https://github.com/opstree/spring3hibernate.git'
-                
-            }
-        }
+       
         stage('Compile and Clean') { 
             steps {
 
